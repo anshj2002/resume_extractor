@@ -13,6 +13,9 @@ env/
 .pyenv/
 pyvenv.cfg
 
+.env
+
+
 # VSCode settings
 .vscode/
 
