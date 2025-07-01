@@ -1,12 +1,6 @@
-Absolutely! Here’s a **ready-to-copy README.md** for your project.
-You only need to update `"your-username/resume-qna"` and the demo GIF/diagram links if you want your own branding.
-
----
-
-````markdown
 <p align="center">
-  <img src="https://img.shields.io/github/license/your-username/resume-qna?color=brightgreen" alt="License">
-  <img src="https://img.shields.io/github/languages/top/your-username/resume-qna" alt="Main Language">
+  <img src="https://img.shields.io/github/license/anshj2002/resume_extractor?color=brightgreen" alt="License">
+  <img src="https://img.shields.io/github/languages/top/anshj2002/resume_extractor" alt="Main Language">
   <img src="https://img.shields.io/badge/LLM-HuggingFace%20API-blue" alt="LLM Backend">
   <img src="https://img.shields.io/badge/UI-Bootstrap%205-green" alt="Bootstrap">
 </p>
@@ -40,26 +34,19 @@ You only need to update `"your-username/resume-qna"` and the demo GIF/diagram li
 
 > ![Resume QnA GIF Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTI1cG1yN2gycW1mc2dxbmtib2RwcTZuMHhzMG1hbDltczJ3aW5lcyZjdD1n/Bm5evDOAAzFKFzRk7C/giphy.gif)
 >
-> _Upload resume → Ask “What is the candidate’s latest experience?” → Instantly get the answer!_
+> _Upload resume → Ask "What is the candidate's latest experience?" → Instantly get the answer!_
 
 ---
 
-## 🖼️ Flow Diagram
-
-<p align="center">
-  <img src="https://mermaid.ink/img/pako:eNqNUc1ugzAQ_BXLzlkJsaGRkzRQEVkQrpYQDaOSkzIUOxG9Jb7e0bAU_u_ScW47OLC_YW2uQ2HHmQvG5y0twUoLUmYwAUURDoAgGmWUZgOEk2mhUaGUq0o3Z7YoKnV5Dc5lQe7nsUMR1o9uYbsw3F6XG9MMX9v_QNHj0zWrvWqQkLfI7s8Hg1tJekZo9giDSe28bfrZ6HQpMEhIyl8QK5jcr5B6jcUlHRVEBhdgsT0TxKOrtkNHZ28vJw4vQFrbHrs9eCqMIzCOWKn4No5ACztDFxKPUuF8GkYNQTEzS1urw9IAVWQKNQK9v8C7Hg6vA" alt="App Flow Diagram" width="700">
-</p>
-
----
 
 ## 🛠️ Installation & Local Setup
 
 **1. Clone this repository**
 
 ```bash
-git clone https://github.com/your-username/resume-qna.git
-cd resume-qna
-````
+git clone https://github.com/anshj2002/resume_extractor.git
+cd resume_extractor
+```
 
 **2. Create a virtual environment & activate**
 
@@ -98,7 +85,7 @@ python app.py
 ## 🧑‍💻 Project Structure
 
 ```
-resume-qna/
+resume_extractor/
 │
 ├── app.py               # Flask backend, API calls
 ├── requirements.txt
@@ -119,55 +106,29 @@ resume-qna/
 2. **Flask extracts the text** (auto-deletes file after)
 3. **User asks questions**; frontend disables input and shows animation while waiting
 4. **Backend sends question + resume text** to Hugging Face LLM API (Zephyr-7b)
-5. **AI-generated answer is returned** and shown, along with Q\&A history
+5. **AI-generated answer is returned** and shown, along with Q&A history
 
 ---
 
 ## 💡 Example Questions
 
-* “What is the candidate’s latest job?”
-* “List all technical skills.”
-* “Which university did the candidate attend?”
-* “What is the candidate’s email address?”
-* “Summarize this candidate in 2 lines.”
+* "What is the candidate's latest job?"
+* "List all technical skills."
+* "Which university did the candidate attend?"
+* "What is the candidate's email address?"
+* "Summarize this candidate in 2 lines."
 
 ---
 
 ## 🛡️ Security & Privacy
 
 * All resumes are **auto-deleted** after upload/extraction
-* **Q\&A history is session-only** (not saved after browser close)
+* **Q&A history is session-only** (not saved after browser close)
 * **Your Hugging Face token** is kept private in `.env`
 
 ---
 
-## 🌟 Want More Features?
-
-* Auto-extract and tag candidate’s **skills, email, phone, LinkedIn**
-* Auto-suggest smart questions
-* Download/export Q\&A as PDF/CSV
-* Compare multiple resumes
-* Dark mode, drag-n-drop upload, admin analytics
-
-> ⭐️ PRs and suggestions welcome!
-
----
-
-## 📝 License
-
-[MIT License](LICENSE)
-
----
 
 <p align="center">
-  <b>Made with ❤️ by [Your Name]</b>
+  <b>Made with ❤️ by anshj2002</b>
 </p>
-```
-
----
-
-**You can copy this directly into `README.md`!**
-
-* Just update your GitHub repo links and add your GIF/screenshots if you want to customize the visuals.
-* Let me know if you want anything extra (deployment instructions, FAQs, or a feature roadmap section)!
-
