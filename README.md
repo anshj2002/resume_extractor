@@ -30,6 +30,7 @@
 ## 🚀 Quick Demo
 
 <video src="01.07.2025_16.44.34_REC.mp4" controls width="600"></video>
+▶️ [Click to view the demo video](01.07.2025_16.44.34_REC.mp4)
 > _Upload resume → Ask "What is the candidate's latest experience?" → Instantly get the answer!_
 
 ---
