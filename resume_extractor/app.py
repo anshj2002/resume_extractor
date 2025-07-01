@@ -4,13 +4,17 @@ from pypdf import PdfReader
 import docx
 import requests
 import secrets
+from dotenv import load_dotenv
+
+load_dotenv()  
+
+HF_TOKEN = os.getenv("HF_TOKEN") 
+
 
 app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)  # For session management (Q&A history)
 
-# -- Hugging Face API Setup --
-HF_API_URL = "https://api-inference.huggingface.co/models/google/gemma-1.1-2b-it"
-HF_TOKEN = "YOUR_HF_TOKEN"  
+HF_API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta" 
 HF_HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"}
 
 def extract_text(file_path):
