@@ -29,8 +29,8 @@
 
 ## 🚀 Quick Demo
 
-> ![Resume QnA GIF Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTI1cG1yN2gycW1mc2dxbmtib2RwcTZuMHhzMG1hbDltczJ3aW5lcyZjdD1n/Bm5evDOAAzFKFzRk7C/giphy.gif)
->
+<video src="01.07.2025_16.44.34_REC.mp4" controls width="600"></video>
+▶️ [Click to view the demo video](01.07.2025_16.44.34_REC.mp4)
 > _Upload resume → Ask "What is the candidate's latest experience?" → Instantly get the answer!_
 
 ---
