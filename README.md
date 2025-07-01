@@ -7,9 +7,6 @@
 
 <h1 align="center">📄 Resume Q&A Extractor (LLM-powered)</h1>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTI1cG1yN2gycW1mc2dxbmtib2RwcTZuMHhzMG1hbDltczJ3aW5lcyZjdD1n/Bm5evDOAAzFKFzRk7C/giphy.gif" width="350" alt="Resume QnA Demo GIF">
-</p>
 
 <p align="center">
   <b>Upload any resume, ask questions using AI!</b><br>
