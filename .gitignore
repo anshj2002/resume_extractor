@@ -1,0 +1,50 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.pyenv/
+pyvenv.cfg
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Uploads, logs, and runtime files
+uploads/
+*.log
+
+# Node modules (if ever used)
+node_modules/
+
+# Ignore env files and credentials
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Ignore OS files
+Thumbs.db
+desktop.ini
+
+# Ignore static file cache (if any)
+static/cache/
